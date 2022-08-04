@@ -8,6 +8,6 @@ class MainTest(unittest.TestCase):
         ret = main.helloworld("Test")
         self.assertEqual(ret, "Hello World! Test")
         
-if __name___ == "__main__":
+if __name__ == "__main__":
     unittest.main()
     
